@@ -28,7 +28,6 @@
 #import "StellaGameCore.h"
 #import <OpenEmuBase/OERingBuffer.h>
 #import "OE2600SystemResponderClient.h"
-#import <OpenGL/gl.h>
 
 #include "Console.hxx"
 #include "Cart.hxx"
@@ -225,14 +224,14 @@ void stellaOESetPalette(const uInt32 *palette)
     return OEIntSizeMake(_videoWidth * PAR, _videoHeight);
 }
 
-- (GLenum)pixelFormat
+- (uint32_t)pixelFormat
 {
-    return GL_BGRA;
+    return OEPixelFormat_BGRA;
 }
 
-- (GLenum)pixelType
+- (uint32_t)pixelType
 {
-    return GL_UNSIGNED_INT_8_8_8_8_REV;
+    return OEPixelType_UNSIGNED_INT_8_8_8_8_REV;
 }
 
 # pragma mark - Audio

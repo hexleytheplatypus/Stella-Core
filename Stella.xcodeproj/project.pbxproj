@@ -37,7 +37,6 @@
 /* Begin PBXBuildFile section */
 		82EC409F0FD9EC420017FC19 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC409E0FD9EC420017FC19 /* libz.dylib */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		946C18A21713D32F00C64BF9 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946C18A11713D32F00C64BF9 /* OpenEmuBase.framework */; };
 		94F0AE0118AB07AB00505C0A /* AtariVox.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 94F0AD6718AB07AA00505C0A /* AtariVox.cxx */; };
 		94F0AE0218AB07AB00505C0A /* Booster.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 94F0AD6918AB07AA00505C0A /* Booster.cxx */; };
@@ -368,7 +367,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				82EC409F0FD9EC420017FC19 /* libz.dylib in Frameworks */,
 				946C18A21713D32F00C64BF9 /* OpenEmuBase.framework in Frameworks */,
 			);
